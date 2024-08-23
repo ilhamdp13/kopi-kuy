@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuling Motors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin: 10px 0 20px;
+        }
+
+        header nav {
+            margin-top: 20px;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .intro h2 {
+            font-size: 2.5em;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 20px);
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .gallery-item .content {
+            padding: 15px;
+        }
+
+        .gallery-item h3 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+
+        .gallery-item p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Wuling Motors</h1>
+            <p>Innovasi dan Kualitas dalam Setiap Perjalanan</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Model</a></li>
+                    <li><a href="#">Layanan</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <h2>Selamat Datang di Wuling Motors</h2>
+            <p>Temukan berbagai model kendaraan terbaru kami yang mengedepankan teknologi, keselamatan, dan kenyamanan.
+            </p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/400x300" alt="Model 1">
+                <div class="content">
+                    <h3>Model 1</h3>
+                    <p>Deskripsi singkat tentang Model 1. Memadukan desain modern dengan teknologi mutakhir.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/400x300" alt="Model 2">
+                <div class="content">
+                    <h3>Model 2</h3>
+                    <p>Deskripsi singkat tentang Model 2. Kendaraan yang menawarkan performa dan efisiensi bahan bakar
+                        terbaik.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/400x300" alt="Model 3">
+                <div class="content">
+                    <h3>Model 3</h3>
+                    <p>Deskripsi singkat tentang Model 3. Dirancang untuk memberikan kenyamanan dan keamanan ekstra
+                        untuk keluarga Anda.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta">
+            <a href="#">Jelajahi Model Kami</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Wuling Motors. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+
+</html>
