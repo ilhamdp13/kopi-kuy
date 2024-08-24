@@ -37,5 +37,21 @@
             "harga": "150.000",
             "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
         }
+    ],
+    "Donuts": [
+        {
+            "foto": "images/produk/Donat_Coklat.png",
+            "nama": "Donat Coklat",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://w7.pngwing.com/pngs/276/682/png-transparent-donuts-chocolate-chocolate-chocolate-dessert-donuts.png"
+        },
+        {
+            "foto": "images/produk/Donat_tiramisu.jpg",
+            "nama": "Donat Tiramsisu",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        }
     ]
 }
